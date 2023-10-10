@@ -3,7 +3,6 @@ import * as redis from 'redis';
 
 // Dotenv Imports
 import dotenv from 'dotenv';
-import { logger } from './winstonLog';
 
 // // Load environment variables from .env file
 dotenv.config();
