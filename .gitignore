@@ -1,0 +1,35 @@
+# dependencies
+**/node_modules
+**/node_modules
+**/*/.pnp
+**/*/.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+#Ignore dist folder
+dists
+/dist/
+
+# Ignore files related to API keys
+.env
+
+# OS generated files
+Thumbs.db
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.iml
+
+.DS_Store
+**/*/.DS_Store
